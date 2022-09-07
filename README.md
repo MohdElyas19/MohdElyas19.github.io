@@ -1,7 +1,7 @@
 
 
-<h1 align="center size="200px">Hi 👋, I'm Shoaib Patel </h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="center size="200px">Hi 👋, I'm Mohd Elyas Khan </h1>
+<h3 align="center">A passionate Java Backend Developer from India</h3>
 
 <p align="left"> <img width="100%" height="450px" src="https://media4.giphy.com/media/cUAGuLiEcTBwRfkAQq/giphy.gif?cid=ecf05e47tpuhrmemrur90ppma82gi2qwcvn45bt5mxzcaul2&rid=giphy.gif&ct=s" alt="patelshoaib7" /> </p>
 
