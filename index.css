@@ -46,8 +46,8 @@
     width: 40px;
 }
 #myPhoto {
-    width: 70%;
-    height: 400px;
+    width: 75%;
+    height: 350px;
     border-radius: 310px;
     margin-top: 20px;
 }
@@ -193,4 +193,116 @@
 #mySiteImg {
     width: 35px;
     height: 35px;
+}
+@media all and (min-width: 381px) and (max-width: 790px){
+    #heading {
+        /* margin: auto ; */
+        padding: 30px 0px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+    }
+    #heading > div:nth-child(1) {
+        width: 45%;
+    }
+    #heading > div:nth-child(2) {
+        width: 35%;
+    }
+    #h1Head {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+    #resumeDiv {
+        padding-bottom: 40px;
+        margin-left: 20px;
+    }
+    #resumeHref {
+        background-color: #3d3de7;
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 15px 25px;
+        font-size: 17px;
+    
+    }
+    #resumeHref:hover {
+        background-color: white;
+        color: #3d3de7;
+        border: 1px solid #3d3de7;
+    }
+    #githubAndLinkedin{
+        display: flex;
+        margin-left: 5px;
+    }
+    #githubAndLinkedin > a > img {
+        padding-right: 50px;
+        height: 40px;
+        width: 40px;
+    }
+    #myPhoto {
+        width: 90%;
+        height: 300px;
+        border-radius: 310px;
+        margin-top: 20px;
+    }
+}
+@media all and (min-width: 50px) and (max-width: 380px) {
+    #heading {
+        /* margin: auto ; */
+        padding: 30px 0px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+    }
+    #heading > div:nth-child(1) {
+        width: 45%;
+        border: 1px solid green;
+    }
+    #heading > div:nth-child(2) {
+        width: 35%;
+        border: 1px solid purple;
+    }
+    #h1Head {
+        font-size: 15px;
+        line-height: 29px;
+        padding-bottom: 30px;
+    }
+    #resumeDiv {
+        padding-bottom: 40px;
+        margin-left: 5px;
+    }
+    #resumeHref {
+        background-color: #3d3de7;
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 10px 15px;
+        font-size: 17px;
+    
+    }
+    #resumeHref:hover {
+        background-color: white;
+        color: #3d3de7;
+        border: 1px solid #3d3de7;
+    }
+    #githubAndLinkedin{
+        display: flex;
+        margin-left: 5px;
+    }
+    #githubAndLinkedin > a > img {
+        padding-right: 20px;
+        height: 40px;
+        width: 40px;
+    }
+    #myPhoto {
+        width: 90%;
+        height: 150px;
+        border-radius: 310px;
+        margin-top: 20px;
+    }
 }
