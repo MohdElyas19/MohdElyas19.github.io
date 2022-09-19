@@ -196,9 +196,7 @@
 }
 @media all and (min-width: 381px) and (max-width: 790px){
     #heading {
-        /* margin: auto ; */
         padding: 30px 0px;
-        border: 1px solid black;
         display: flex;
         justify-content: center;
         height: auto;
@@ -217,7 +215,7 @@
     }
     #resumeDiv {
         padding-bottom: 40px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
     #resumeHref {
         background-color: #3d3de7;
@@ -235,7 +233,7 @@
     }
     #githubAndLinkedin{
         display: flex;
-        margin-left: 5px;
+        /* margin-left: 5px; */
     }
     #githubAndLinkedin > a > img {
         padding-right: 50px;
@@ -251,21 +249,17 @@
 }
 @media all and (min-width: 50px) and (max-width: 380px) {
     #heading {
-        /* margin: auto ; */
         padding: 30px 0px;
-        border: 1px solid black;
         display: flex;
         justify-content: center;
         height: auto;
-        width: 100%;
+        width: auto;
     }
     #heading > div:nth-child(1) {
         width: 45%;
-        border: 1px solid green;
     }
     #heading > div:nth-child(2) {
         width: 35%;
-        border: 1px solid purple;
     }
     #h1Head {
         font-size: 15px;
