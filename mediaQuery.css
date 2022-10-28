@@ -1,0 +1,167 @@
+@media only screen and (min-width: 540px) and (max-width: 780px) {
+    .profImg {
+        height: 320px;
+        width: 250px;
+        float: right;
+        border-radius: 150px;
+    }
+    #homeh1 {
+        font-size: 28px;
+        font-family: sans-serif;
+        line-height: 45px;
+    }
+    #homeAImg {
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 10px;
+        gap: 50px;
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+    #sectionName {
+        font-size: 28px;
+        font-weight: 750;
+        color: #4070f4;
+    }
+    #line {
+        width: 75px;
+        height: 2px;
+        background-color: #4070f4;
+        margin: auto;
+    }
+    #about p {
+        padding-top: 20px;
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.699);
+        line-height: 25px;
+    }
+    #skillbox1 img {
+        width: 110px;
+        height: 110px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    #skillbox2 img {
+        width: 110px;
+        height: 110px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .projects {
+        padding-top: 39px;
+        display: block;
+        gap: 20px;
+        width: 87%;
+        margin: auto;
+    }
+    .projects > div {
+        width: 87%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    #projectP {
+        padding: 10px 0px;
+        height: 40%;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    #contactName {
+        font-size: 26px;
+    }
+    #contactSite p {
+        text-align: center;
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 70px) and (max-width: 540px) {
+    .profImg {
+        height: 170px;
+        width: 130px;
+        float: right;
+        border-radius: 80px;
+    }
+    #homeh1 {
+        font-size: 18px;
+        font-family: sans-serif;
+        line-height: 28px;
+    }
+    #homeAImg {
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 0px;
+        gap: 20px;
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+    #homeAImg a img {
+        width: 30px;
+        height: 30px;
+    }
+    #sectionName {
+        font-size: 20px;
+        font-weight: 700;
+        color: #4070f4;
+    }
+    #line {
+        width: 50px;
+        height: 2px;
+        background-color: #4070f4;
+        margin: auto;
+    }
+    #aboutName {
+        padding-top: 39px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    #about p {
+        padding-top: 20px;
+        font-size: 17px;
+        color: rgba(0, 0, 0, 0.699);
+        line-height: 20px;
+    }
+    #skillbox1 img {
+        width: 70px;
+        height: 70px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    #skillbox2 img {
+        width: 70px;
+        height: 70px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .projects {
+        padding-top: 39px;
+        display: block;
+        gap: 15px;
+        width: 90%;
+        margin: auto;
+    }
+    .projects > div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #projectP {
+        padding: 10px 0px;
+        height: 40%;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+    #projectP p {
+        font-size: 17px;
+        color: rgba(0, 0, 0, 0.699);
+    }
+    #projectP p:nth-child(1) {
+        font-size: 20px;
+        color:  black;
+    }
+    #contactName {
+        font-size: 18px;
+    }
+    #contactSite p {
+        text-align: center;
+        font-size: 10px;
+    }
+}
