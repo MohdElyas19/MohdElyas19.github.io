@@ -3,6 +3,7 @@
     display: flex;
     width: 82%;
     justify-content: center;
+    padding-bottom: 50px;
     margin: auto;
 }
 #home > div:nth-child(1) {
@@ -40,10 +41,12 @@
 }
 
 #about {
-    width: 50%;
+    width: 100%;
     margin: auto;
-    padding-top: 210px;
+    padding-top: 100px;
+    padding-bottom: 70px;
     text-align: center;
+    background-color: aliceblue;
 }
 #sectionName {
     text-align: center;
@@ -68,7 +71,7 @@
     line-height: 25px;
 }
 #skills {
-    padding-top: 210px;
+    padding: 100px 0px;
 }
 #skillbox1 {
     padding-top: 39px;
@@ -93,7 +96,9 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #projects {
-    padding-top: 210px;
+    padding: 100px 0px;
+    background-color: aliceblue;
+    
 }
 .projects {
     padding-top: 39px;
@@ -128,6 +133,7 @@
     color:  black;
 }
 #projectLink {
+    padding-top: 13px;
     width: 90%;
     margin: auto;
     display: flex;
