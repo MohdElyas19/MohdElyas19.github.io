@@ -165,6 +165,11 @@
     color: #4070f4;
     border: 1px solid #4070f4;
 }
+#calender {
+    padding: 100px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 100px 79px;
+}
 #contact {
     padding-top: 75px;
     color: white;

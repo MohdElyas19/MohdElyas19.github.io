@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="bodyStyle.css"> 
     <link rel="stylesheet" href="mediaQuery.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script
+        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+
+        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
 </head>
 <body>
     <nav id="navbar">
@@ -26,6 +34,7 @@
             <li><a href="https://drive.google.com/file/d/1f85PgrhBcExN0uSmGeRGejouJG1-ZRJ2/view?usp=sharing" target="_blank">Resume</a></li>
         </ul>
     </nav>
+
     <div id="home">
         <div>
             <h1 id="homeh1">Hi 👋, <br> I'am <span id="colorName">Mohd Elyas Khan</span> <br> Java Backend Developer</h1>
@@ -36,6 +45,7 @@
         </div>
         <div><img class="profImg" src="./images/Image.jpeg" alt="Profile Image"></div>
     </div>
+
     <div id="about">
         <h2 id="sectionName">About</h2>
         <div id="line"></div>
@@ -46,6 +56,7 @@
         </p>
         <p>Drop a mail @ mohdelyaskhan19@gmail.com</p>
     </div>
+
     <div id="skills">
         <h2 id="sectionName">Skills</h2>
         <div id="line"></div>
@@ -59,6 +70,7 @@
             <img src="./images/MySql.png" alt="mysql image">
         </div>
     </div>
+    
     <div id="projects">
         <h2 id="sectionName">Projects</h2>
         <div id="line"></div>
@@ -99,6 +111,12 @@
             </div>
         </div>
     </div>
+
+    <div id="calender" class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+    </div>
+
     <div id="contact">
         <h2 id="sectionName">Get in touch</h2>
         <div id="line"></div>
@@ -122,6 +140,12 @@
 </html>
 
 <script>
+    GitHubCalendar(".calendar", "MohdElyas19");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "MohdElyas19", { responsive: true });
+</script>
+
+<script>
     window.onscroll = function() {
         myFunction()
     };
@@ -136,4 +160,4 @@
         navbar.classList.remove("sticky");
       }
     }
-    </script>
+</script>
